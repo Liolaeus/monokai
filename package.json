@@ -1,0 +1,21 @@
+{
+  "name": "monokai-lio",
+  "displayName": "Monokai Lio",
+  "description": "Monokai by Lio",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Lio",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Lio-color-theme.json"
+      }
+    ]
+  }
+}
