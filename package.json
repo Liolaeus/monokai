@@ -1,21 +1,22 @@
 {
-  "name": "monokai-lio",
-  "displayName": "Monokai Lio",
-  "description": "Monokai by Lio",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.94.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Monokai Lio",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Monokai Lio-color-theme.json"
-      }
-    ]
-  }
+    "name": "monokai-lio",
+    "displayName": "Monokai Lio",
+    "description": "Monokai by Lio",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.94.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": "https://github.com/Liolaeus/monokai",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Lio",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai Lio-color-theme.json"
+            }
+        ]
+    }
 }
