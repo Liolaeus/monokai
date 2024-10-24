@@ -75,10 +75,6 @@
         "debugView.valueChangedHighlight": "#50f6ff",
         "descriptionForeground": "#8b888f",
         "diffEditor.diagonalFill": "#363537",
-        "diffEditor.insertedLineBackground": "#7bd88f19",
-        "diffEditor.insertedTextBackground": "#7bd88f19",
-        "diffEditor.removedLineBackground": "#fc618d19",
-        "diffEditor.removedTextBackground": "#fc618d19",
         "diffEditorGutter.insertedLineBackground": "#7bd88f19",
         "diffEditorGutter.removedLineBackground": "#fc618d19",
         "diffEditorOverview.insertedForeground": "#7bd88fa5",
@@ -104,7 +100,7 @@
         "editor.lineHighlightBackground": "#f7f1ff0c",
         "editor.lineHighlightBorder": "#00000000",
         "editor.linkedEditingBackground": "#363537",
-        "editor.rangeHighlightBackground": "#363537",
+        "editor.rangeHighlightBackground": "#36353780",
         "editor.rangeHighlightBorder": "#363537",
         "editor.selectionBackground": "#bab6c026",
         "editor.selectionHighlightBackground": "#f7f1ff26",
@@ -118,8 +114,13 @@
         "editorBracketHighlight.foreground2": "#7cff25",
         "editorBracketHighlight.foreground3": "#fff200",
         "editorBracketHighlight.foreground4": "#159eff",
-        "editorBracketHighlight.foreground5": "#ffa221",
-        "editorBracketHighlight.foreground6": "#ff4b14",
+        "editorBracketHighlight.foreground5": "#ffaa00",
+        "editorBracketHighlight.foreground6": "#45ebea",
+        "diffEditor.insertedTextBackground": "#57ce1c3c",
+        "diffEditor.insertedLineBackground": "#12670a1b",
+        // "diffEditor.insertedTextBorder": "#0fdb00",
+        "diffEditor.removedTextBackground": "#ff00003c",
+        "diffEditor.removedLineBackground": "#ff002b1b",
         "editorBracketMatch.background": "#222222",
         "editorBracketMatch.border": "#69676c",
         "editorCodeLens.foreground": "#69676c",
@@ -144,7 +145,7 @@
         "editorHint.foreground": "#948ae3",
         "editorHoverWidget.background": "#363537",
         "editorHoverWidget.border": "#222222",
-        "editorIndentGuide.background": "#363537",
+        "editorIndentGuide.background1": "#363537",
         "editorInfo.background": "#00000000",
         "editorInfo.border": "#222222",
         "editorInfo.foreground": "#5ad4e6",
@@ -190,10 +191,10 @@
         "extensionButton.prominentBackground": "#363537",
         "extensionButton.prominentForeground": "#f7f1ff",
         "extensionButton.prominentHoverBackground": "#525053",
-        "extensionIcon.preReleaseForeground": "#948ae3",
-        "extensionIcon.sponsorForeground": "#5ad4e6",
-        "extensionIcon.starForeground": "#50f6ff",
-        "extensionIcon.verifiedForeground": "#7bd88f",
+        "extensionIcon.preReleaseForeground": "#948ae380",
+        "extensionIcon.sponsorForeground": "#5ad4e680",
+        "extensionIcon.starForeground": "#50f6ff80",
+        "extensionIcon.verifiedForeground": "#7bd88f80",
         "focusBorder": "#69676c",
         "foreground": "#f7f1ff",
         "gitDecoration.addedResourceForeground": "#7bd88f",
@@ -1616,14 +1617,14 @@
             "scope": "storage.type.extends",
             "settings": {
                 "foreground": "#FC618D",
-                "fontStyle": "normal"
+                "fontStyle": ""
             }
         },
         {
             "scope": "storage.type.function.arrow",
             "settings": {
                 "foreground": "#FC618D",
-                "fontStyle": "normal"
+                "fontStyle": ""
             }
         },
         {
@@ -1801,7 +1802,7 @@
             "scope": "support.type.property-name",
             "settings": {
                 "foreground": "#F7F1FF",
-                "fontStyle": "normal"
+                "fontStyle": ""
             }
         },
         {
