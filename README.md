@@ -1,6 +1,6 @@
 # Monokai Lio
 
-A Vscode monokai theme
+A Vscode monokai inspired theme
 
 ## Screenshots
 
